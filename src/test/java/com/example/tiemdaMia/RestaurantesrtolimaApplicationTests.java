@@ -1,4 +1,4 @@
-package com.example.restaurantesrtolima;
+package com.example.tiemdaMia;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
