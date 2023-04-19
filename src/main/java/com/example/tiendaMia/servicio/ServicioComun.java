@@ -1,4 +1,4 @@
-package com.example.tiemdaMia.servicio;
+package com.example.tiendaMia.servicio;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.example.tiemdaMia.servicio;
+package com.example.tiendaMia.servicio;
 
-import com.example.tiemdaMia.entidades.Producto;
-import com.example.tiemdaMia.repositorio.ProductoRepositorio;
+import com.example.tiendaMia.entidades.Producto;
+import com.example.tiendaMia.repositorio.ProductoRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

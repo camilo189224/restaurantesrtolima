@@ -1,14 +1,14 @@
-package com.example.tiemdaMia.controladores;
+package com.example.tiendaMia.controladores;
 
-import com.example.tiemdaMia.entidades.Producto;
-import com.example.tiemdaMia.servicio.Servicioproducto;
+import com.example.tiendaMia.entidades.Producto;
+import com.example.tiendaMia.servicio.Servicioproducto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("tienda/api/")
+@RequestMapping("http://localhost:8080/tienda/api/")
 public class ControladorProducto {
 
     @Autowired

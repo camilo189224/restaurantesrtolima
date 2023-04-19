@@ -1,4 +1,4 @@
-package com.example.tiemdaMia.entidades;
+package com.example.tiendaMia.entidades;
 
 import jakarta.persistence.*;
 
@@ -11,7 +11,7 @@ public class Producto {
     @Column(name="id")
     private Integer id;
 
-    @Column(name="name")
+    @Column(name="nombre")
     private String nombre;
     @Column(name="foto")
     private String foto;
@@ -19,7 +19,7 @@ public class Producto {
     private String descripcion;
     @Column(name="cantidad")
     private Integer cantidad;
-    @Column(name="precioUnitario")
+    @Column(name="precio")
     private Double precioUnitario;
     @Column(name="clasificacion")
     private String clasificacion;
@@ -39,7 +39,7 @@ public class Producto {
     private String fechaIngreso;
     @Column(name="fechaVencimiento")
     private String fechaVencimiento;
-    @Column(name="aplicaDescuento")
+    @Column(name="descuento")
     private Boolean aplicaDescuento;
 
     @Column(name="iva")
